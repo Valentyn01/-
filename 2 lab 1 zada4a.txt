@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+    int a,b,c,d,e;
+    printf(" введіть число а:");
+    scanf("%d",&a);
+    printf(" введіть число b:");
+    scanf("%d",&b);
+    d=a+b;
+    c=floor(a/b);
+    e=pow(a*b,3);
+    printf(":%d суму двох чисел ",d); 
+    printf(":%d цілу частину від ділення 1-го на 2-е",c);
+    printf(":%d потроєний добуток заданих чисел",e);
+    return 0;
+}

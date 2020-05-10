@@ -1,0 +1,33 @@
+#include <stdio.h>
+#include<math.h>
+
+int main()
+{
+    float t,s,f;
+    printf("s=");
+    scanf("%g",&s);
+    printf("t=");
+    scanf("%g",&t);
+    if(s=-7)
+    {
+        f= s/t+2*s*t;
+        printf("\n%g,",f);
+        
+    }
+else if (s=7)
+{
+f=sqrt(s/t+2*s*t);
+  printf("\n%g,",f);
+}
+  else if  (s=14)
+  {
+  f=pow(s,2)+2*s*t;
+    printf("\n%g,",f);
+}
+  else 
+  {
+  f=pow(s,2)+2*s*t;
+    printf("\n%g,",f);
+}
+    return 0;
+}
